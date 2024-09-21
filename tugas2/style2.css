@@ -1,0 +1,88 @@
+body {
+    font-family:"Fascinate Inline", system-ui;
+    color: rgba(0, 0, 0, 0.861);
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(hal2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+#namaDisplay{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+}
+
+#nimDisplay{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+}
+
+.input-container {
+    color: beige;
+    text-align: center;
+    max-width: 600px;
+    width: 20%;
+    background-color: rgba(96, 137, 185, 0.571);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Memberikan jarak antara container */
+    width: 40%; /* Mengatur lebar container agar tidak terlalu besar */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigate-button {
+    padding: 10px 15px;
+    background-color: #558dc5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navigate-button:hover {
+    background-color: #54a565;
+}
+
+.start-button {
+    padding: 10px 20px;
+    background-color: #4cacaf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.start-button:hover {
+    background-color: #45a049;
+}
+
+.result-container {
+    background-color: #6b73ab;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+    max-width: 400px;
+    display: none;
+}
+
+.result-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}

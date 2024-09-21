@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(hal1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button-container {
+    text-align: center;
+    text-decoration: none;
+    background-color: #6f80a3c4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+h1{
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 800;
+}
+
+p{
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navigate-button {
+    padding: 15px 30px;
+    background-color: #b46e8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navigate-button:hover {
+    background-color: #479658;
+}

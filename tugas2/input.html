@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Kedua</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="input-container">
+        <h1 class="oswald-uniquifier">Masukkan Nama dan NIM</h1>
+        <button class="start-button" onclick="getData()">Input disini</button>
+
+        <br> 
+    </div>
+
+    <div class="result-container" id="resultContainer"> 
+        <p id="namaDisplay">Nama: </p>
+        <p id="nimDisplay">NIM: </p>
+
+        <button class="navigate-button" onclick="location.href='index.html'">Kembali ke Halaman Utama</button>
+    </div>
+
+    <script>
+        function getData() {
+            var nama = prompt("Masukkan Nama Anda:");
+            var nim = prompt("Masukkan NIM Anda:");
+
+            if (nama && nim) {
+                document.getElementById("namaDisplay").textContent = "Nama: " + nama;
+                document.getElementById("nimDisplay").textContent = "NIM: " + nim;
+                document.getElementById("resultContainer").style.display = "block";
+            } else {
+                alert("Harap masukkan Nama dan NIM dengan benar.");
+            }
+        }
+    </script>
+</body>
+</html>
